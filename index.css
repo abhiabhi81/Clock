@@ -1,0 +1,54 @@
+#heading{
+    font-size: 850%;
+    text-decoration-line:underline;
+    margin: 1%;
+    text-align: center;
+    color: aliceblue;
+}
+
+#clock{
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+    height:40vw;
+    width:40vw;
+    background-image: url(wed.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url(https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX25997228.jpg);
+}
+
+.hand{
+    background-color: black;
+    position: absolute;
+    border-radius: 2px;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 26%;
+    width: 2%;
+    top: 24.5%;
+    left: 48.935%;
+    opacity: 50%;
+}
+
+#minute{
+    height: 30%;
+    width: 1%;
+    top: 19.5%;
+    left: 49.35%;
+    opacity: 50%;
+}
+
+#second{
+    height: 34%;
+    width: 0.5%;
+    top: 15.8%;
+    left: 49.75%;
+}
